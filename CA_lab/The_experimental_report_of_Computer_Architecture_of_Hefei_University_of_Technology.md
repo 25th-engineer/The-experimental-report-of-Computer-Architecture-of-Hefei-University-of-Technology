@@ -1,6 +1,6 @@
 <h1 align=center>合肥工业大学《计算机体系结构》实验报告（2020年版）</h1>
 &emsp;&emsp;内容有点多。<br>
-&emsp;&emsp;在用<b>matlab</b>绘图时时间比较紧（赶在deadline之前），因此横纵坐标与图例的英文描述可能有些语法错误或者用词不当，但博主懒得重新再跑一遍程序了（图有点多）。在报告末尾附了绘图的<b>matlab</b>代码，有需要的朋友可以自己改一改。<br>
+&emsp;&emsp;在用```matlab```绘图时时间比较紧（赶在deadline之前），因此横纵坐标与图例的英文描述可能有些语法错误或者用词不当，但博主懒得重新再跑一遍程序了（图有点多）。在报告末尾附了绘图的<b>matlab</b>代码，有需要的朋友可以自己改一改。<br>
 &emsp;&emsp;2017级的学生应该都已经交实验报告了吧，如果有人来抄博主这个写得稀烂的报告，弄不好两个都得零分，害怕……（愿2017级的校友同学昨天[2020-07-03]就已经提交了）<br>
 &emsp;&emsp;博主在安装Simplescalar时也遇到了许多坑，改天找时间写个简单的教程；之前在CSDN上搜索的时候，没发现啥有帮助的资料，最后还得自己摸索。<br>
 &emsp;&emsp;发现有任何错误或者疑问欢迎在评论区（或者<a href="mailto:u25th_engineer@163.com?&bcc=u25th_engineer@mail2tor.com&subject=Hello DFZ&body=Nice%20to%20meet%20you!" target="_top">E-mail</a>）反馈。
@@ -59,7 +59,7 @@
 
 <br>
 
->&emsp;&emsp;插入排序程序i```sort.s```<br>
+>&emsp;&emsp;插入排序程序```isort.s```<br>
 >&emsp;&emsp;**步进：**
 
 <center>
