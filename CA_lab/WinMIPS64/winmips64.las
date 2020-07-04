@@ -1,0 +1,1 @@
+D:\WinMIPS64\data_and_structure_stalls3.s
