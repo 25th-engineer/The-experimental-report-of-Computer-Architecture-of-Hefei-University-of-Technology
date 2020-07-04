@@ -1,8 +1,9 @@
-&emsp;&emsp;内容有点多，博主慢慢码。<br>
+<h1 align=center>合肥工业大学《计算机体系结构》实验报告（2020年版）</h1>
+&emsp;&emsp;内容有点多。<br>
 &emsp;&emsp;在用``matlab``绘图时时间比较紧（赶在deadline之前），因此横纵坐标与图例的英文描述可能有些语法错误或者用词不当，但博主懒得重新再跑一遍程序了（图有点多）。在报告末尾附了绘图的``matlab``代码，有需要的朋友可以自己改一改。<br>
 &emsp;&emsp;2017级的学生应该都已经交实验报告了吧，如果有人来抄博主这个写得稀烂的报告，弄不好两个都得零分，害怕……（愿2017级的校友同学昨天[2020-07-03]就已经提交了）<br>
 &emsp;&emsp;博主在安装Simplescalar时也遇到了许多坑，改天找时间写个简单的教程；之前在CSDN上搜索的时候，没发现啥有帮助的资料，最后还得自己摸索。<br>
-&emsp;&emsp;发现有任何错误或者疑问欢迎在评论区反馈。
+&emsp;&emsp;发现有任何错误或者疑问欢迎在评论区（或者<a href="mailto:u25th_engineer@163.com?&bcc=u25th_engineer@mail2tor.com&subject=Hello DFZ&body=Nice%20to%20meet%20you!" target="_top">E-mail</a>）反馈。
 
 
 [TOC]
@@ -26,7 +27,7 @@
 >&emsp;&emsp;c. 用MIPS64汇编语言编写代码文件*.s，程序中应包括数据相关。在不采用定向技术的情况下，用WinMIPS64/WinDLX模拟器运行存在数据相关的程序。记录数据相关引起的暂停时钟周期数以及程序执行的总时钟周期数，计算暂停时钟周期数占总执行周期数的百分比。
 &emsp;&emsp;d. 在采用定向技术的情况下，用WinMIPS64模拟器再次运行程序。重复上述3中的工作，并计算采用定向技术后性能提高的倍数。
 
-## 1.2 指令调度
+### 1.2 指令调度
 >&emsp;&emsp;a. 用指令调度技术解决流水线中的结构相关与数据相关
 >>&emsp;&emsp;i. 用MIPS64汇编语言编写代码文件*.s，程序中应包括数据相关与结构相关（你可以自己设置各个功能单元的延迟时间）
 &emsp;&emsp;ii.  用WinMIPS64模拟器运行你所写的程序。记录程序执行过程中各种相关发生的次数、发生相关的指令组合，以及程序执行的总时钟周期数；
@@ -175,8 +176,9 @@
 <br>
 
 **结构相关**
->&emsp;&emsp;``data_and_structure_stalls_1.s``：<br>
-&emsp;&emsp;执行方式：```single cycle```
+>&emsp;&emsp;``data_and_structure_stalls_1.s``<br>
+&emsp;&emsp;执行方式：<br>
+&emsp;&emsp;```single cycle```
 
 <center>
     <img style="border-radius: 0.3125em;
