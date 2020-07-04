@@ -2,4 +2,6 @@
 &emsp;&emsp;<a href="./CA_lab/The_experimental_report_of_Computer_Architecture_of_Hefei_University_of_Technology.md" target="_blank">Markdown版实验报告</a>（下载后建议用VS code打开，不懂的可以网上搜）<br>
 &emsp;&emsp;或者直接浏览我的博客，如下：<br>
 &emsp;&emsp;<a href="https://blog.csdn.net/u25th_engineer/article/details/107117773" target="_blank">CSDN博客位置</a>
+&emsp;&emsp;亦或看Web版的，如下：<br>
+&emsp;&emsp;<a href="https://www.wenhua.link/The_experimental_report_of_Computer_Architecture_of_Hefei_University_of_Technology/The_experimental_report_of_Computer_Architecture_of_Hefei_University_of_Technology.html" target="_blank">Web版报告</a>
 </font>
