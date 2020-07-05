@@ -6,6 +6,56 @@
 &emsp;&emsp;发现有任何错误或者疑问欢迎在评论区（或者<a href="mailto:u25th_engineer@163.com?&bcc=u25th_engineer@mail2tor.com&subject=Hello DFZ&body=Nice%20to%20meet%20you!" target="_top">E-mail</a>）反馈。
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>td加斜线</title>
+
+<style>
+table{
+border-collapse:collapse;
+}
+table,tr,td{
+border:1px solid black;
+}
+td{
+width:100px;/*这里需要自己调整，根据自己的需求调整宽度*/
+height:50px;/*这里需要自己调整，根据自己的需求调整高度*/
+position: relative;
+}
+td[class=first]:before{
+content: "";
+position: absolute;
+width: 1px;
+height:117px;/*这里需要自己调整，根据td的宽度和高度*/
+top:0;
+left:0;
+background-color: black;
+display: block;
+transform: rotate(-60deg);/*这里需要自己调整，根据线的位置*/
+transform-origin: top;
+}
+</style>
+</head>
+
+<body>
+<table>
+<tr>
+<td class="first"><div align=right>怪兽</div><br><div align=left>奥特曼</div></td>
+<td>怪兽 1</td>
+<td>怪兽 2</td>
+</tr>
+
+<tr>
+<td>奥特曼 1</td>
+<td>奥特曼 2</td>
+<td>奥特曼 3</td>
+</tr>
+</table>
+</body>
+</html>
+
 [TOC]
 
 
